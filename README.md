@@ -43,7 +43,7 @@ project_root/
 ### 1. Create a new problem
 
 ```bash
-python3 create_problem.py
+python3 new.py
 ```
 
 * Enter the problem name (e.g., `q1`).
@@ -62,7 +62,7 @@ python3 create_problem.py
 ### 3. Run tests
 
 ```bash
-python3 run_tests.py
+python3 run.py
 ```
 
 * The script will list all available problems.
