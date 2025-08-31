@@ -1,4 +1,4 @@
-# Hackerrank C++ Question Local Runner 
+# Hackerrank C++ Questions Local Runner 
 
 This project allows you to **run and test multiple C++ competition problems locally**, using a structured test case folder setup. Each problem can have multiple test cases, and you can see the input, expected output, and your output for every test case.
 
