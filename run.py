@@ -67,13 +67,19 @@ for case in cases:
             )
             actual = result.stdout.strip()
 
-            print(f"\n--- {case} Test Case {case_num} ---")
-            print("Input:")
+            # Displaying results with improved readability
+            print(f"\n{'-'*40}")
+            print(f"--- {case} Test Case {case_num} ---")
+            print(f"{'-'*40}")
+            print(f"Input:")
             with open(input_path) as f: print(f.read().strip())
-            print("Expected Output:")
+            print(f"\n{'-'*40}")
+            print(f"Expected Output:")
             print(expected)
-            print("Your Output:")
+            print(f"\n{'-'*40}")
+            print(f"Your Output:")
             print(actual)
+            print(f"{'-'*40}")
             if actual == expected:
                 print("Result: PASS ✅")
                 passed += 1
